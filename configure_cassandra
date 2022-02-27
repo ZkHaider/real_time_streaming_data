@@ -1,0 +1,3 @@
+#!/bin/sh
+
+docker exec cassandra cqlsh --username cassandra --password cassandra  -f /schema.cql

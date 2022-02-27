@@ -1,0 +1,5 @@
+#!/bin/sh
+
+## Create producer
+docker exec kafka kafka-console-producer --bootstrap-server localhost:9092 --topic mytopic
+

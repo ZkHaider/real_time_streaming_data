@@ -1,0 +1,4 @@
+#!/bin/sh
+
+## Create consumer
+docker exec kafka kafka-console-consumer --bootstrap-server localhost:9092 --topic mytopic --from-beginning
