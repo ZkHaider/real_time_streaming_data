@@ -71,6 +71,7 @@ services:
       - net
     volumes:
       - ./scripts/CreateStream.scala:/CreateStream.scala
+      - ./spark-processor/target:/opt/spark-data
 
   spark-worker-1:
     image: bde2020/spark-worker:3.1.1-hadoop3.2-java11
